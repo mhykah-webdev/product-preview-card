@@ -123,6 +123,7 @@ main {
 .product-blurb {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 1em;
     background-color: var(--clr-white);
     color: var(--clr-aurometal-saurus);
@@ -174,7 +175,12 @@ button {
     border-radius: 0.5em;
 }
 
-@media (min-width: 600px) {
+button:hover,
+button:focus {
+    background-color: var(--clr-deep-aquamarine-hover);
+}
+
+@media (min-width: 650px) {
     .product-card {
         grid-template-columns: 1fr 1fr;
         min-width: 600px;
@@ -188,5 +194,6 @@ button {
         border-radius: 0 1em 1em 0;
         gap: 1.5em;
         padding: 2em;
+        margin: 0;
     }
 }
