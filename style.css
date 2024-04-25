@@ -161,20 +161,16 @@ button {
     .card {
         grid-auto-flow: column;
         max-width: 37.5rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .content {
-        max-width: 18.75rem;
         padding: 2rem;
     }
 
     img {
         border-radius: 0.625rem 0.0rem 0rem 0.625rem;
-        width: 18.75rem;
-    }
-
-    picture {
-        width: 18.75rem;
+        height: 100%;
     }
 
     .blurn>h1 {
