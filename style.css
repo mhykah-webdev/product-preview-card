@@ -141,7 +141,7 @@ h2 {
 .price>p {
     color: hsl(228, 12%, 48%);
     text-decoration: line-through;
-    font-size: 0.75rem;
+    font-size: 0.813rem;
     font-weight: 500;
 }
 
@@ -187,7 +187,7 @@ svg {
     }
 
     .blurb>h1 {
-        margin-top: 1.25rem;
+        margin-top: 1.125rem;
         margin-bottom: 1.5rem;
     }
 
